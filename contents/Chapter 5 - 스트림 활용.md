@@ -140,6 +140,7 @@ Optional<T> min(Comparator<? super T> comparator);
 ### 기본형 특화 스트림
 
 기본형 특화 스트림으로 `IntStream`, `DoubleStream`, `LongStream`이 존재하며 각각의 인터페이스에는 숫자 스트림의 합계를 계산하는 sum, 최댓값 요소를 검색하는 max 같이 자주 사용하는 숫자 관련 리듀싱 연산 메서드를 제공한다.
+✨stream에서 `.mapToInt`등을 사용해 변경 가능하다.
 
 ### 객체 스트림으로 복원하기
 
